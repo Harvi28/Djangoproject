@@ -1,0 +1,57 @@
+body{
+    background: rgba(224, 221, 27, 0.63);
+}
+.nav-area{
+    float: left;
+    list-style: none;
+    margin-top: 30px;
+    }
+    .nav-area li{
+     display: inline-block;
+     
+    }
+    .nav-area li img{
+        height: 35px;
+        width: 35px;
+       
+    }
+    .nav-area li a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 50px;
+    font-family:poppins;
+    }
+    .nav-area li a:hover{
+    background: black;
+    color:blue;
+    }
+    .swiper-container
+{
+height: 600px;
+width: 1200px;
+}
+ .swiper-wrapper{
+   padding-top: 10px;
+  padding-right: 100px;
+   margin-left: 100px;
+   
+ }
+ 
+ .swiper-wrapper img{
+   position: relative;
+   cursor: pointer;
+   width: 1000px;
+   height: 600px;
+   
+ }
+ table{
+     font-size: 15px;
+ }
+ #search{
+   
+    height: 20px;
+    width: relative;
+    border-radius: 10px;
+ }
+   

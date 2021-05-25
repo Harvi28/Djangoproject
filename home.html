@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>365 Entertainment</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" type="text/css" href="home.css" media="screen">
+    </head>
+    <body>
+        <header>
+            
+            <ul class="nav-area">
+                       <li><img src="D:/internship1.jpg"></li>
+                      <li><a href="movies.html"><b>Movies</b></a></li>
+                       <li><a href="series.html"><b>TV Series</b></a></li>
+                       <li><a href="audio.html"><b>Audio</b></a></li>
+                       
+             </ul>
+             
+         </header>
+         <div class="swiper-container">
+            <div class="swiper-wrapper">
+             
+              <div class="swiper-slide"><img src="D:/internship2.jpg"></div>
+              <div class="swiper-slide"><img src="D:/internship3.jpg"></div>
+              <div class="swiper-slide"><img src="D:/internship4.jpg"></div>
+              <div class="swiper-slide"><img src="D:/internship5.jpg"></div>
+              <div class="swiper-slide"><img src="D:/internship6.jpg"></div>
+              <div class="swiper-slide"><img src="D:/internship7.jpg"></div>
+              <div class="swiper-slide"><img src="D:/internship8.jpg"></div>
+              <div class="swiper-slide"><img src="D:/internship9.jpg"></div>
+              </div>
+             
+             <div class="swiper-button-next"></div>
+             <div class="swiper-button-prev"></div>
+           </div> 
+           <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+       <script>
+        var swiper = new Swiper('.swiper-container', {
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      </script>
+    <table border="2" >
+        <tr>
+            <td><b>Genre</b></td>
+            <td><input type="text" id="search" value="Enter movie name to search"></td>
+        </tr>
+    </table>
+    </body>
+</html>
